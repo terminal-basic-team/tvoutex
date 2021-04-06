@@ -18,12 +18,11 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-#include "TVoutEx.h"
-
 #ifdef SDL_DEBUG
 
-#include <SDL2/SDL.h>
 #include <stdexcept>
+#include "TVoutEx.h"
+#include <SDL2/SDL.h>
 
 #include "bytearray.hpp"
 #include "utility/Font6x8.h"
