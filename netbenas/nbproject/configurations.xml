@@ -53,7 +53,7 @@
   <confs>
     <conf name="Arduino_MEGA2560" type="3">
       <toolsSet>
-        <compilerSet>Arduino-1.8.10|GNU</compilerSet>
+        <compilerSet>Arduino-1.8.13|GNU</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
@@ -69,7 +69,7 @@
           </incDir>
           <commandLine>-Os -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega2560 -fno-rtti -mcall-prologues</commandLine>
           <preprocessorList>
-            <Elem>ARDUINO=10810</Elem>
+            <Elem>ARDUINO=10813</Elem>
             <Elem>ARDUINO_ARCH_AVR</Elem>
             <Elem>ARDUINO_AVR_MEGA2560</Elem>
             <Elem>F_CPU=16000000L</Elem>
@@ -413,7 +413,7 @@
     </conf>
     <conf name="Arduino_1284" type="3">
       <toolsSet>
-        <compilerSet>Arduino-1.8.10|GNU</compilerSet>
+        <compilerSet>Arduino-1.8.13|GNU</compilerSet>
         <dependencyChecking>true</dependencyChecking>
         <rebuildPropChanged>true</rebuildPropChanged>
       </toolsSet>
@@ -429,7 +429,7 @@
           </incDir>
           <commandLine>-Os -Wextra -std=gnu++11 -fpermissive -fno-exceptions -ffunction-sections -fdata-sections -fno-threadsafe-statics -MMD -mmcu=atmega1284p -fno-rtti -mcall-prologues</commandLine>
           <preprocessorList>
-            <Elem>ARDUINO=10810</Elem>
+            <Elem>ARDUINO=10813</Elem>
             <Elem>ARDUINO_ARCH_AVR</Elem>
             <Elem>ARDUINO_AVR_MEGA2560</Elem>
             <Elem>F_CPU=16000000L</Elem>
